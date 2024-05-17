@@ -7,6 +7,11 @@
 
 body {
     margin: 0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -28,6 +33,41 @@ header {
     color:#D9D9D9;
 }
 
-.academy {
-    color: #D9D9D9;
+.academy-text {
+    color:#D9D9D9;
+}
+
+#nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-items a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+.social-media a i {
+    font-size: 24px;
+    color: var(--primary-background);
+}
+
+.info {
+    color: var(--primary-background);
+}
+
+.info p {
+    margin: 5px 0;
 }
